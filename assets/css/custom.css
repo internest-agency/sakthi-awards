@@ -1,0 +1,49 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    #a1063e 50%
+  ) !important;
+}
+
+.ori-footer-section h2.ori-event-title, .ori-header-section.header-style-one .first-header-menu, .ori-header-section .mobile_menu_button, .ori-slider-section-1 .ori-slider-social li a {
+    color: #ffffff !important;
+}
+
+.ori-header-section.header-style-one.sticky-on .first-header-menu, .ori-header-section.sticky-on .mobile_menu_button {
+    color:  #5e0a0c !important;
+}
+
+
+
+
+/*
+.ori-service-why-choose-text .sub-title, .ori-service-why-choose-text .ori-event-title {
+    color: #ffffff !important;
+}
+
+.ori-vission-content .ori-service-why-choose-text .ori-event-title span {
+    -webkit-text-stroke-color: #ffffff !important;
+    }
+    
+    .ori-vission-content .ori-service-why-choose-text p {
+        color: #F2F3F5 !important;
+        }
+        */
+
+.display-none-section {
+  display: none !important;
+}
+
+.ori-footer-section p {
+  color: #f2f3f5 !important;
+}
+
+
+.ori-footer-section .ori-event-title span {
+    -webkit-text-stroke-color: #ffffff !important;
+}
+
+.ori-footer-copyright.social-icons a {
+    color: #f2f3f5 !important;
+}

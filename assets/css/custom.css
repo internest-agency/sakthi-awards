@@ -1,9 +1,25 @@
 body {
+  /*
+  font-family: "Baloo Thambi 2", serif;
+  font-optical-sizing: auto;
+*/
+font-family: "Tiro Tamil", serif;
+  font-weight: 400;
   background: radial-gradient(
     circle,
     rgba(255, 255, 255, 1) 0%,
     #a1063e 50%
   ) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Tiro Tamil", serif !important;
+  font-weight: 400;
+
+}
+
+.ori-slider-section-1 .ori-slider-scroll .scroll-mouse i {
+  color: #FFFFC3;
 }
 
 .ori-footer-section h2.ori-event-title, .ori-header-section.header-style-one .first-header-menu, .ori-header-section .mobile_menu_button, .ori-slider-section-1 .ori-slider-social li a {

@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6 {
     color:  #5e0a0c !important;
 }
 
+.text-letter-spacing {
+  letter-spacing: 4px;
+}
+
 
 
 

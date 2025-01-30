@@ -1,3 +1,13 @@
+:root {
+  --hdr-gradient: linear-gradient(
+    231deg in oklab,
+    rgb(148 17 19) 2% 2%, rgb(206 0 111) 48% 48%, rgb(118 157 7) 106% 106%
+  );
+  --sdr-gradient: linear-gradient(231deg, #941113 2% 2%, #ce006f 48% 48%, #769d07 106% 106%);
+
+  background: var(--hdr-gradient);
+}
+
 body {
   /*
   font-family: "Baloo Thambi 2", serif;
@@ -6,11 +16,11 @@ body {
 font-family: "Tiro Tamil", serif;
   font-size: 18px;
   font-weight: 400;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 1) 0%,
-    #a1063e 50%
-  ) !important;
+  background: var(--hdr-gradient) !important;
+}
+
+.ori-digital-studio::after {
+  opacity: 0.1 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFC3;
 }
 
-.ori-footer-section h2.ori-event-title, .ori-header-section.header-style-one .first-header-menu, .ori-header-section .mobile_menu_button, .ori-slider-section-1 .ori-slider-social li a {
+.ori-footer-section h2.ori-event-title, .ori-header-section.header-style-one .first-header-menu, .ori-header-section .mobile_menu_button, .ori-slider-section-1 .ori-slider-social li a, .ori-vission-content .ori-event-title, .ori-vission-content .sub-title, .ori-vission-content p, .ori-about-gallery-section .ori-event-title, .ori-about-circle-progress-section .circle p {
     color: #ffffff !important;
 }
 
@@ -61,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.ori-footer-section .ori-event-title span {
+.ori-footer-section .ori-event-title span, .ori-vission-content .ori-event-title span, .ori-about-gallery-section span {
     -webkit-text-stroke-color: #ffffff !important;
 }
 
@@ -69,18 +79,31 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff !important;
 }
 
+.ori-sponsor-section-1 .ori-sponsor-slider .slick-list {
+  display: flex;
+  justify-content: center;
+}
+
 .ori-footer-copyright.social-icons a {
     color: #f2f3f5 !important;
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 600px) {
+  .ori-sponsor-section-1 .ori-sponsor-slider .slick-list {
+    display: unset;
+  }
+  /*
   .ori-footer-section .ori-event-title span {
     -webkit-text-stroke-color: #000000 !important;
-}
+  }
   .text-white .ori-event-title {
     color: #000000 !important;
   }
   .ori-footer-section p {
     color: #000 !important;
   }
+    */
 }
+
+

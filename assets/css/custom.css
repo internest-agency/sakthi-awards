@@ -104,6 +104,10 @@ h1, h2, h3, h4, h5, h6 {
   .ori-sponsor-section-1 .ori-sponsor-slider .slick-list {
     display: unset;
   }
+  .ori-service-why-choose-list-item p, .ori-footer-section .about-pt p, p {
+    text-align: justify !important;
+    font-size: 12px;
+  }
   /*
   .ori-footer-section .ori-event-title span {
     -webkit-text-stroke-color: #000000 !important;

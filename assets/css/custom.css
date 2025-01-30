@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFC3;
 }
 
+.ori-service-why-choose-list-item p, .ori-footer-section .about-pt p {
+  text-align: justify !important;
+}
+
 .ori-footer-section h2.ori-event-title, .ori-header-section.header-style-one .first-header-menu, .ori-header-section .mobile_menu_button, .ori-slider-section-1 .ori-slider-social li a, .ori-vission-content .ori-event-title, .ori-vission-content .sub-title, .ori-vission-content p, .ori-about-gallery-section .ori-event-title, .ori-about-circle-progress-section .circle p {
     color: #ffffff !important;
 }

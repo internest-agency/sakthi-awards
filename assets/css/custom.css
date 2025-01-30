@@ -4,6 +4,7 @@ body {
   font-optical-sizing: auto;
 */
 font-family: "Tiro Tamil", serif;
+  font-size: 18px;
   font-weight: 400;
   background: radial-gradient(
     circle,
@@ -64,6 +65,22 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-text-stroke-color: #ffffff !important;
 }
 
+.text-white .ori-event-title {
+  color: #fff !important;
+}
+
 .ori-footer-copyright.social-icons a {
     color: #f2f3f5 !important;
+}
+
+@media screen and (max-width: 425px) {
+  .ori-footer-section .ori-event-title span {
+    -webkit-text-stroke-color: #000000 !important;
+}
+  .text-white .ori-event-title {
+    color: #000000 !important;
+  }
+  .ori-footer-section p {
+    color: #000 !important;
+  }
 }

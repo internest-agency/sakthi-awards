@@ -1,9 +1,9 @@
 :root {
   --hdr-gradient: linear-gradient(
-    229deg in oklab,
-    rgb(148 17 19) 2% 2%, rgb(206 0 111) 74% 74%
+    to bottom left in oklab,
+    rgb(99 25 24) 0%, rgb(165 13 39) 33%, rgb(212 3 112) 66%, rgb(104 15 52) 98% 98%
   );
-  --sdr-gradient: linear-gradient(229deg, #941113 2% 2%, #ce006f 74% 74%);
+  --sdr-gradient: linear-gradient(to bottom left, #631918 0%, #a50d27 33%, #d40370 66%, #680f34 98% 98%);
 
   background: var(--hdr-gradient);
 }

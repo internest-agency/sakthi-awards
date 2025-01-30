@@ -1,9 +1,9 @@
 :root {
   --hdr-gradient: linear-gradient(
-    231deg in oklab,
-    rgb(148 17 19) 2% 2%, rgb(206 0 111) 48% 48%, rgb(118 157 7) 106% 106%
+    229deg in oklab,
+    rgb(148 17 19) 2% 2%, rgb(206 0 111) 74% 74%
   );
-  --sdr-gradient: linear-gradient(231deg, #941113 2% 2%, #ce006f 48% 48%, #769d07 106% 106%);
+  --sdr-gradient: linear-gradient(229deg, #941113 2% 2%, #ce006f 74% 74%);
 
   background: var(--hdr-gradient);
 }
@@ -13,10 +13,10 @@ body {
   font-family: "Baloo Thambi 2", serif;
   font-optical-sizing: auto;
 */
-font-family: "Tiro Tamil", serif;
-  font-size: 18px;
-  font-weight: 400;
-  background: var(--hdr-gradient) !important;
+font-family: "Plus Jakarta Sans", serif;
+font-size: 18px;
+font-weight: 400;
+background: var(--hdr-gradient) !important;
 }
 
 .ori-digital-studio::after {
@@ -24,7 +24,7 @@ font-family: "Tiro Tamil", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Tiro Tamil", serif !important;
+  font-family: "Plus Jakarta Sans", serif !important;
   font-weight: 400;
 
 }
@@ -45,10 +45,11 @@ h1, h2, h3, h4, h5, h6 {
     color:  #5e0a0c !important;
 }
 
+/*
 .text-letter-spacing {
   letter-spacing: 4px;
 }
-
+*/
 
 
 
@@ -76,7 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .ori-footer-section .ori-event-title span, .ori-vission-content .ori-event-title span, .ori-about-gallery-section span {
-    -webkit-text-stroke-color: #ffffff !important;
+  -webkit-text-stroke-color: #F3D06B !important;
+  -webkit-text-fill-color: #F3D06B;
 }
 
 .text-white .ori-event-title {

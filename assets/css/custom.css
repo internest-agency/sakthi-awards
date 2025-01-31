@@ -6,8 +6,10 @@
   --sdr-gradient: linear-gradient(to bottom left, #631918 0%, #a50d27 33%, #d40370 66%, #680f34 98% 98%);
 
   background: var(--hdr-gradient); */
-  background-image: url('../puthiyathalaimurai_bg.webp');
+  background-image: url('../puthiyathalaimurai_bg_new.webp');
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 body {

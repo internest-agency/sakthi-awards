@@ -8,8 +8,6 @@
   background: var(--hdr-gradient); */
   background-image: url('../puthiyathalaimurai_bg.webp');
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 body {

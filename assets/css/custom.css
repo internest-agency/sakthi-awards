@@ -1,11 +1,15 @@
 :root {
-  --hdr-gradient: linear-gradient(
+  /* --hdr-gradient: linear-gradient(
     to bottom left in oklab,
     rgb(99 25 24) 0%, rgb(165 13 39) 33%, rgb(212 3 112) 66%, rgb(104 15 52) 98% 98%
   );
   --sdr-gradient: linear-gradient(to bottom left, #631918 0%, #a50d27 33%, #d40370 66%, #680f34 98% 98%);
 
-  background: var(--hdr-gradient);
+  background: var(--hdr-gradient); */
+  background-image: url('../puthiyathalaimurai_bg.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {

@@ -6,10 +6,7 @@
   --sdr-gradient: linear-gradient(to bottom left, #631918 0%, #a50d27 33%, #d40370 66%, #680f34 98% 98%);
 
   background: var(--hdr-gradient); */
-  background-image: url('../puthiyathalaimurai_bg_new.webp');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+ 
 }
 
 body {
@@ -17,10 +14,13 @@ body {
   font-family: "Baloo Thambi 2", serif;
   font-optical-sizing: auto;
 */
-
 font-family: "Plus Jakarta Sans", serif;
 font-size: 18px;
 font-weight: 400;
+background-image: url('../puthiyathalaimurai_bg_new.webp');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 .ori-digital-studio::after {

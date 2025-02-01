@@ -6,7 +6,6 @@
   --sdr-gradient: linear-gradient(to bottom left, #631918 0%, #a50d27 33%, #d40370 66%, #680f34 98% 98%);
 
   background: var(--hdr-gradient); */
- 
 }
 
 body {
@@ -14,23 +13,27 @@ body {
   font-family: "Baloo Thambi 2", serif;
   font-optical-sizing: auto;
 */
-font-family: "Plus Jakarta Sans", serif;
-font-size: 18px;
-font-weight: 400;
-background-image: url('../puthiyathalaimurai_bg_new.webp');
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+  font-family: "Plus Jakarta Sans", serif;
+  font-size: 18px;
+  font-weight: 400;
+  background-image: url("../puthiyathalaimurai_bg_new.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .ori-digital-studio::after {
   opacity: 0.1 !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Plus Jakarta Sans", serif !important;
   font-weight: 400;
-
 }
 
 .ori-event-title span {
@@ -39,19 +42,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ori-slider-section-1 .ori-slider-scroll .scroll-mouse i {
-  color: #FFFFC3;
+  color: #ffffc3;
 }
 
-.ori-service-why-choose-list-item p, .ori-footer-section .about-pt p {
+.ori-service-why-choose-list-item p,
+.ori-footer-section .about-pt p {
   text-align: justify !important;
 }
 
-.ori-footer-section h2.ori-event-title, .ori-header-section.header-style-one .first-header-menu, .ori-header-section .mobile_menu_button, .ori-slider-section-1 .ori-slider-social li a, .ori-vission-content .ori-event-title, .ori-vission-content .sub-title, .ori-vission-content p, .ori-about-gallery-section .ori-event-title, .ori-about-circle-progress-section .circle p {
-    color: #ffffff !important;
+.ori-footer-section h2.ori-event-title,
+.ori-header-section.header-style-one .first-header-menu,
+.ori-header-section .mobile_menu_button,
+.ori-slider-section-1 .ori-slider-social li a,
+.ori-vission-content .ori-event-title,
+.ori-vission-content .sub-title,
+.ori-vission-content p,
+.ori-about-gallery-section .ori-event-title,
+.ori-about-circle-progress-section .circle p {
+  color: #ffffff !important;
 }
 
-.ori-header-section.header-style-one.sticky-on .first-header-menu, .ori-header-section.sticky-on .mobile_menu_button {
-    color:  #5e0a0c !important;
+.ori-header-section.header-style-one.sticky-on .first-header-menu,
+.ori-header-section.sticky-on .mobile_menu_button {
+  color: #5e0a0c !important;
 }
 
 .sponsors-container.container h4.title {
@@ -63,8 +76,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 4px;
 }
 */
-
-
 
 /*
 .ori-service-why-choose-text .sub-title, .ori-service-why-choose-text .ori-event-title {
@@ -88,10 +99,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #f2f3f5 !important;
 }
 
-
-.ori-footer-section .ori-event-title span, .ori-vission-content .ori-event-title span, .ori-about-gallery-section span {
-  -webkit-text-stroke-color: #F3D06B !important;
-  -webkit-text-fill-color: #F3D06B;
+.ori-footer-section .ori-event-title span,
+.ori-vission-content .ori-event-title span,
+.ori-about-gallery-section span {
+  -webkit-text-stroke-color: #f3d06b !important;
+  -webkit-text-fill-color: #f3d06b;
 }
 
 .text-white .ori-event-title {
@@ -104,15 +116,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ori-footer-copyright.social-icons a {
-    color: #f2f3f5 !important;
+  color: #f2f3f5 !important;
 }
-
 
 @media screen and (max-width: 600px) {
   .ori-sponsor-section-1 .ori-sponsor-slider .slick-list {
     display: unset;
   }
-  .ori-service-why-choose-list-item p, .ori-footer-section .about-pt p, p {
+  .ori-service-why-choose-list-item p,
+  .ori-footer-section .about-pt p,
+  p {
     text-align: justify !important;
     font-size: 12px;
   }
@@ -128,5 +141,3 @@ h1, h2, h3, h4, h5, h6 {
   }
     */
 }
-
-
